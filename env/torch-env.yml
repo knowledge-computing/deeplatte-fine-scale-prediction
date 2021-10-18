@@ -1,0 +1,20 @@
+name: torch-env
+channels:
+- defaults
+- conda-forge
+- pytorch
+dependencies:
+- numpy
+- pandas
+- scipy
+- scikit-learn
+- jupyterlab
+- matplotlib
+- pip
+- pytorch==1.6.0
+- torchvision==0.7.0
+- tensorboard
+- sqlalchemy
+- geoalchemy2
+- psycopg2
+- python-dotenv
