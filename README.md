@@ -1,4 +1,4 @@
-#Building Autocorrelation-Aware Rerpresentations for Fine-Scale Spatiotemporal Prediction
+# Building Autocorrelation-Aware Rerpresentations for Fine-Scale Spatiotemporal Prediction
 Y. Lin, Y. -Y. Chiang, M. Franklin, S. P. Eckel and J. L. Ambite, "Building Autocorrelation-Aware Representations for Fine-Scale Spatiotemporal Prediction," 2020 IEEE International Conference on Data Mining (ICDM), 2020, pp. 352-361, doi: 10.1109/ICDM50108.2020.00044.
 
 ![img.png](img.png)
@@ -29,17 +29,17 @@ affecting the results.
 
 **Index Terms—Fine-Scale Prediction, Spatiotemporal, Autocorrelation, Air Quality**
 
-##[Updates]
+## [Updates]
 * Oct. 18th 2021, the final organized DeepLatte code has been published.
 
-##Requirements
+## Requirements
 * Pytorch 
 * numpy + pandas + scipy + scikit-learn
 * The following dependencies are addressed in torch-env.yml under env folder.
 
 
-##Downloads
-###Datasets
+## Downloads
+### Datasets
 * A toy version is available at: sample_data folder; los_angeles_500m_2020_02.npz contains feature values
 * The complete dataset is available under: 
 
@@ -88,7 +88,7 @@ The contextual data is a single array of shape **H x W x P**, where **P** is the
 Each input represents the input signal at time **i**, and **T'** is the number of previous hours (from **t - T' + 1** to **t**).
 
 
-##Code
+## Code
 ### Code structure
 * The PyTorch implementation of DeepLatte architecture is located in the models folder.
 * The folder models contains autoencoder, convlstm, and linear layers with other utilites. 
@@ -107,7 +107,7 @@ Each input represents the input signal at time **i**, and **T'** is the number o
   - svg_losses
 - scripts
   - data_loader
-  - ..
+  - ...
 - train
 - test
 
@@ -123,7 +123,7 @@ Run the train.py file to make a result of the DeepLatte architecture.
 * linear_layers uses L1 regularization for feature selection, thus input and output features in param must be the in_features. 
 
 
-##Reference
+## Reference
 * ConvLSTM has been reproduced in DeepLatte following by ConvLSTM.pytorch (Ref: https://github.com/spacejake/convLSTM.pytorch/blob/master/convlstm.py).
 
 
