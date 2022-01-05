@@ -1,11 +1,11 @@
 # Building Autocorrelation-Aware Rerpresentations for Fine-Scale Spatiotemporal Prediction
 Y. Lin, Y. -Y. Chiang, M. Franklin, S. P. Eckel and J. L. Ambite, "Building Autocorrelation-Aware Representations for Fine-Scale Spatiotemporal Prediction," 2020 IEEE International Conference on Data Mining (ICDM), 2020, pp. 352-361, doi: [10.1109/ICDM50108.2020.00044.](https://ieeexplore.ieee.org/document/9338402)
-
+<!-- 
 ![img.png](img.png)
 
 ## [Updates]
 * Oct. 18th 2021, the final organized DeepLatte code has been published.
-
+ -->
 ## Requirements
 * See torch-env.yml under env folder.
 
