@@ -10,12 +10,12 @@ Y. Lin, Y. -Y. Chiang, M. Franklin, S. P. Eckel and J. L. Ambite, "Building Auto
 * See torch-env.yml under env folder.
 
 ## Datasets
-**A toy version is available at: sample_data/los_angeles_500m_2020_02.npz contains feature values **
+Sample data is available at: sample_data/los_angeles_500m_2020_02.npz contains feature values
 * dynamic_feature_names (list): list of dynamic features, such as 'temperature', 'dew_point', 'humidity', etc.
 * static_feature_names (list): list of static features, such as 'landuse_a_allotments', 'landuse_a_military', etc.
 * mapping_map (ndarray): (Height, Width) array of the pixels
 
-## Running
+## Running the code
 
 **You can find a more detail in "*python train.py -h"**
 
@@ -59,7 +59,7 @@ Each input represents the input signal at time **i**, and **T'** is the number o
 * The folder models contains autoencoder, convlstm, and linear layers with other utilites
 * DeepLatte model contains two high-level python scripts at train.py and test.py
 
-### Folder structure
+<!-- ### Folder structure
 - sample_data
   - results
   - toy version data
@@ -73,7 +73,7 @@ Each input represents the input signal at time **i**, and **T'** is the number o
 - scripts
   - data_loader
 - train
-- test
+- test -->
 
 <!-- ### Re-use
 * The main component (DeepLatte.py) is implemented as stand-alone pytorch nn.Modules and it can be re-used in other application.
