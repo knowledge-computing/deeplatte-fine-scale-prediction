@@ -14,6 +14,7 @@ Sample data is available at: sample_data/los_angeles_500m_2020_02.npz contains f
 * dynamic_feature_names (list): list of dynamic features, such as 'temperature', 'dew_point', 'humidity', etc.
 * static_feature_names (list): list of static features, such as 'landuse_a_allotments', 'landuse_a_military', etc.
 * mapping_map (ndarray): (Height, Width) array of the pixels
+See other datasets: https://drive.google.com/drive/folders/1-NO-h--nC2QtJ8lpaC0xX_qGbLUBh9sU?usp=sharing
 
 ## Running the code
 
