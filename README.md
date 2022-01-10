@@ -19,9 +19,9 @@ See other datasets: https://drive.google.com/drive/folders/1-NO-h--nC2QtJ8lpaC0x
 
 ## Running the code
 
-**You can find a more detail in "*python train.py -h"**
+__You can find a more detail in "*python train.py -h"__
 
->Required information:
+>Some commonly-used paramters:
 >- [--data_path DATA_PATH] 
 >- [--result_dir RESULT_DIR] 
 >- [--model_dir MODEL_DIR] 
